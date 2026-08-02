@@ -25,3 +25,15 @@ print(age > 18 and age < 30)
 print(age > 18 or age < 10)
 print(not True)
 
+# assignment operators
+x = 5
+
+x += 3
+
+print(x)  # x = 5 + 3 = 8
+x -= 2
+print(x)  # x = 8 - 2 = 6
+x *= 5
+print(x)  # x = 6 * 5 = 30
+x /= 3
+print(x)  # x = 30 / 3 = 10.0
