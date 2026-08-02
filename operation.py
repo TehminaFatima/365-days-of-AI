@@ -37,3 +37,15 @@ x *= 5
 print(x)  # x = 6 * 5 = 30
 x /= 3
 print(x)  # x = 30 / 3 = 10.0
+
+
+#string operations
+
+name = "Python"
+
+print(name[0])
+print(name[-1])
+print(len(name))
+print(name.upper())
+print(name.lower())
+print(name.replace("Python", "Java"))
