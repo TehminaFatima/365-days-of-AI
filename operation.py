@@ -1,10 +1,18 @@
 a = 10
 b = 3
 
-print(a+b)
+print(a+b)     
 print(a-b)
 print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
-print(a**b)
+print(a/b)  # 10 / 3 = 3.333...
+print(a//b)  # 10 // 3 = 3 (floor division)
+print(a%b)  # 10 % 3 = 1 (modulus)
+print(a**b)  # 10 ** 3 = 1000
+
+#comaprison operators
+a = 5
+
+print(a > 2) # a is greater than 2
+print(a < 2) # a is less than 2
+print(a == 5) # a is equal to 5
+print(a != 5) # a is not equal to 5
