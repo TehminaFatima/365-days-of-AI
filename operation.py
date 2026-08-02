@@ -16,3 +16,12 @@ print(a > 2) # a is greater than 2
 print(a < 2) # a is less than 2
 print(a == 5) # a is equal to 5
 print(a != 5) # a is not equal to 5
+
+#logical operators
+
+age = 22
+
+print(age > 18 and age < 30)
+print(age > 18 or age < 10)
+print(not True)
+
