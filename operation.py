@@ -43,9 +43,9 @@ print(x)  # x = 30 / 3 = 10.0
 
 name = "Python"
 
-print(name[0])
-print(name[-1])
-print(len(name))
-print(name.upper())
-print(name.lower())
-print(name.replace("Python", "Java"))
+print(name[0]) # it will print the first character of the string
+print(name[-1]) # it will print the last character of the string
+print(len(name)) # it will print the length of the string
+print(name.upper()) # it will print the string in uppercase
+print(name.lower()) # it will print the string in lowercase
+print(name.replace("Python", "Java")) # it will replace "Python" with "Java" in the string
