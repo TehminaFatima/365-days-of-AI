@@ -13,3 +13,13 @@ print("random_int_array : " , random_int_array)
 np.random.seed(42) #sets the seed for the random number generator, ensuring that the same random numbers are generated each time the code is run. This is useful for reproducibility.
 seed_random_number = np.random.rand(5)
 print("seed_random_number : " , seed_random_number) 
+
+# simulate a normal distribution
+
+normal_distribution = np.random.normal(loc=0, scale=1, size=5) # loc is the mean, scale is the standard deviation, and size is the number of samples to generate.
+print("normal_distribution : " , normal_distribution)
+
+#simulate a uniform distribution
+
+uniform_distribution = np.random.uniform(low=0.0, high=1.0, size=5) # low is the lower boundary of the output interval, high is the upper boundary of the output interval, and size is the number of samples to generate.
+print("uniform_distribution : " , uniform_distribution)
