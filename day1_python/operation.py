@@ -49,3 +49,6 @@ print(len(name)) # it will print the length of the string
 print(name.upper()) # it will print the string in uppercase
 print(name.lower()) # it will print the string in lowercase
 print(name.replace("Python", "Java")) # it will replace "Python" with "Java" in the string
+
+print(True + True)
+print(True + False)
